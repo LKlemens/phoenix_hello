@@ -5,7 +5,7 @@ defmodule PhoenixHello.ValidatorTest do
 
   describe "is_bigger/2" do
     test "Should return 'yes' if a > b" do
-      a = 1
+      a = 3
       b = 2
 
       assert "yes" == Validator.is_bigger?(a, b)
@@ -13,7 +13,7 @@ defmodule PhoenixHello.ValidatorTest do
 
     test "Should return 'no' if a < b" do
       a = 2
-      b = 1
+      b = 5
 
       assert "no" == Validator.is_bigger?(a, b)
     end
