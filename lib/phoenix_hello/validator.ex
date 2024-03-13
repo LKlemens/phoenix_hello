@@ -6,10 +6,10 @@ defmodule PhoenixHello.Validator do
 
   """
   def is_bigger?(a, b) do
-    if a > b do
-      "yes"
-    else
+    if a < b do
       "no"
+    else
+      "yes"
     end
   end
 end
