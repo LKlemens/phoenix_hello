@@ -4,7 +4,7 @@ defmodule PhoenixHello.ValidatorTest do
   alias PhoenixHello.Validator
 
   describe "is_bigger/2" do
-    test "Should return 'yes' if a > b" do
+    test "Should return 'yes' if a < b" do
       a = 1
       b = 2
 
